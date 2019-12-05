@@ -3,6 +3,14 @@ uuid = "61982cbf-6378-4823-b816-ac02d71ca8c1"
 authors = ["Jan Weidner"]
 version = "0.1.0"
 
+[deps]
+ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
+BoundaryValueDiffEq = "764a87c0-6b3e-53db-9096-fe964310641d"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulRecipes = "42071c24-d89e-48dd-8a24-8a12d9b8861f"
+
 [compat]
 julia = "1.3"
 
